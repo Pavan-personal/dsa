@@ -7,8 +7,6 @@ public class Basics {
             System.out.println(temp);
             return;
         }
-        List<List<Integer>> l = new ArrayList<>();
-        l.add
         temp.add(arr[i]);
         printSubsetsHelper(arr,temp,i+1);
         temp.remove(temp.size() - 1);
@@ -24,6 +22,5 @@ public class Basics {
         System.out.println("Hello world!");
         int[] arr = {1,2,3};
         printSubsets(arr);
-
     }
 }
